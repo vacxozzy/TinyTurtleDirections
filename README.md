@@ -35,19 +35,43 @@ Navigate inside the head tag of your HTML page. On the first line inside of the 
 ```  
 
 <br>
-**Step 6: Canvas**
-In the body of the HTML page create a new tag called `canvas`
+**Step 6: Canvas**  
+In the body of the HTML page create  heading and a new tag called `canvas`
 
 ```
-<body>  
-    <canvas>
-    </canvas>
+<body>
+	<h1> Tiny Turtle </h1>	
+    <canvas> </canvas>
 </body>
 ```  
-**Step 7: JavaScript Set Up**
+
+<br>
+**Step 7: Canvas CSS**  
+In the `style.css` page give your canvas tag the following attributes
+
+* a width of 400px
+* a height of 400px
+* a border (any style)
+
+<br>
+**Step 8: JavaScript Set Up**  
 In the `script.js` page paste the code below on line 1
 
 
 ```
 	TinyTurtle.apply(window); 
 ``` 
+
+**Step 9: Play Turtle**  
+Tiny Turtle understands the following commands:
+
+* forward();
+* right();
+* left();
+* stamp(); <------ This shows which direction the turtle is pointing.  
+
+Use the commands above to make Tiny Turtle travel in a Square.
+
+**Step 10: House**  
+For the final piece of this project create a house (square with a triangle ontop)
+
