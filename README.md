@@ -14,7 +14,7 @@ Clone your new repo into a Cloud 9 workspace with a similar name.
 
 <br>
 **Step 3: New Files**   
-Create thre new files in this workspace. Name these new files...
+Create three new files in this workspace. Name these new files...
 
 * index.html
 * style.css
@@ -36,14 +36,14 @@ Navigate inside the head tag of your HTML page. On the first line inside of the 
 
 <br>
 **Step 6: Canvas**  
-In the body of the HTML page create  heading and a new tag called `canvas`
+On the first line in the head of the HTML page create a new tag called `canvas`
 
 ```
-<body>
-	<h1> Tiny Turtle </h1>	
+<head>
     <canvas> </canvas>
-</body>
-```  
+    <script src="http://toolness.github.io/tiny-turtle/tiny-turtle.js"> </script>
+```
+The canvas appears on the page but must go in the head. This is an odd feature but it must be completed this way.
 
 <br>
 **Step 7: Canvas CSS**  
