@@ -21,32 +21,31 @@ Create three new files in this workspace. Name these new files...
 * script.js
 
 <br>
-**Step 4: Linking Files**  
-Connect these three files together in the `index.html` file.  
-hint: If you need help doing this look at an old project and see how you did it then.
-
-<br>
-**Step 5: Import Tiny Turtle**  
-Navigate inside the head tag of your HTML page. On the first line inside of the head tag paste the code below:
-
+**Step 4: index.html**  
+Copy and paste the code below into you index.html file
 
 ```
-<script src="http://toolness.github.io/tiny-turtle/tiny-turtle.js"> </script>
-```  
-
-<br>
-**Step 6: Canvas**  
-On the first line in the head of the HTML page create a new tag called `canvas`
-
-```
+<!DOCTYPE html>
+<html>
 <head>
-    <canvas> </canvas>
-    <script src="http://toolness.github.io/tiny-turtle/tiny-turtle.js"> </script>
+  
+  <title>Tiny Turtle</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+    <h1>Tiny Turtle</h1>
+  <canvas></canvas>
+  
+  <script src="tinyTurtle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 ```
-The canvas appears on the page but must go in the head. This is an odd feature but it must be completed this way.
 
 <br>
-**Step 7: Canvas CSS**  
+**Step 5: Canvas CSS**  
+You will notice a new HTML tag is being used. This tag is called `canvas`
 In the `style.css` page give your canvas tag the following attributes
 
 * a width of 400px
@@ -54,7 +53,7 @@ In the `style.css` page give your canvas tag the following attributes
 * a border (any style)
 
 <br>
-**Step 8: JavaScript Set Up**  
+**Step 6: JavaScript Set Up**  
 In the `script.js` page paste the code below on line 1
 
 
@@ -62,7 +61,7 @@ In the `script.js` page paste the code below on line 1
 	TinyTurtle.apply(window); 
 ``` 
 
-**Step 9: Play Turtle**  
+**Step 7: Play Turtle**  
 Tiny Turtle understands the following commands:
 
 * forward();
@@ -72,6 +71,6 @@ Tiny Turtle understands the following commands:
 
 Use the commands above to make Tiny Turtle travel in a Square.
 
-**Step 10: House**  
+**Step 8: House**  
 For the final piece of this project create a house (square with a triangle ontop)
 
