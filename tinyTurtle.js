@@ -2,7 +2,6 @@
 // 2013-10-11
 // Public Domain.
 // For more information, see http://github.com/toolness/tiny-turtle.
-
 function TinyTurtle(canvas) {
   canvas = canvas || document.querySelector('canvas');
 
